@@ -19,7 +19,7 @@ print(str4)
 '''Backspace: erases the character before it wherever it is specified.
 Example:'''
 str5 = "Hello  a\bWorld !!!"
-print(str5)
+print(str5) 
 
 '''Backslash: used to insert a backslash into a string.
 Example:'''
