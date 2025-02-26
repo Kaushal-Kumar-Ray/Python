@@ -6,7 +6,7 @@ print(str6)
 
 #We make the use of format() method. The format() methods places the arguments within the
 # string wherever the placeholders are specified.
-quantity = 2
+quantity = 2 
 fruit = "Apples"
 cost = 120.0
 statement = "I want to buy {2} dozen {0} for {1}$"
