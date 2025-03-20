@@ -11,7 +11,7 @@ class mall:
         print("^^^^^^^^^^^^^^^^^^^      XYZ mall     ^^^^^^^^^^^^^^^^^^^^^^^")
         print("Customer Name:",self.customer)
         print("---------------------------")
-        print("-Product Name- \t-Total No of product- \t-Pice per unit \tTotal-")
+        print("-Product Name- \t-Total No of product- \t-Pice per unit- \t-Total-")
         print("-----------------------------------------------------------------")
         print(self.name,"\t",self.total_no_pro,"\t\t\t",self.price_per_pro,"\t\t",self.total)        
         print("-----------------------------------------------------------------")
@@ -25,8 +25,8 @@ total_no_pro=int(input("Enter the total no of product:"))
 price_per_pro=int(input("Enter the price per product:"))
 total=0
 
-obj=mall(customer,name,total_no_pro,price_per_pro,total)
-obj.billing()
-obj.disp()
+Details=mall(customer,name,total_no_pro,price_per_pro,total)
+Details.billing()
+Details.disp()
 
         
