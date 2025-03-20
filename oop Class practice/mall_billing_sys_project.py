@@ -1,5 +1,5 @@
 class mall:
-    def __init__(self,customer,name_pro,total_no_pro,price_per_pro,total):
+    def__init__(self,customer,name_pro,total_no_pro,price_per_pro,total):
         self.customer=customer
         self.name=name_pro
         self.total_no_pro=total_no_pro
