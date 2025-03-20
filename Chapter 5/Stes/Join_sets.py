@@ -68,5 +68,12 @@ method updates into the existing set from another set.
 Example 1:'''
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Seoul", "Kabul", "Delhi"}
-cities3 = cities2.difference(cities)
+cities3 = cities.difference(cities2)
 print(cities3)
+
+
+'''Example 2:
+
+cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+cities2 = {"Seoul", "Kabul", "Delhi"}
+print(cities.difference(cities2))'''
