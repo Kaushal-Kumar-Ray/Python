@@ -1,7 +1,7 @@
 class Hotel:
-    @staticmethod
-    def add (self,a):
-        print(self+a)
-h=Hotel
-h.add(5,3)
+    #@staticmethod
+    def add (self,a,b):
+        print(b+a)
+h=Hotel()
+h.add(5 , 6)
      
