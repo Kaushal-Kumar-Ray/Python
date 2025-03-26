@@ -9,14 +9,18 @@ class Mall:
         self.bill=self.p_price*self.quantity
         Mall.Total_bill=Mall.Total_bill+self.bill
     def greet():
-        print("Welcome to Paramount Mall\n")
+        print("^^^^^^^^^^^^^^^^^^^      XYZ mall     ^^^^^^^^^^^^^^^^^^^^^^^")
     def display(self):
+        print("-------------------------------------------------------------")
         print(f"Product Name :- {self.p_name}\nPrice Per Unit :- {self.p_price}\nQuantity :- {self.quantity}\nCost :-{self.bill}")
     def thank():
-        print("Thank you for shopping with us")
+        print("\t\t\tTHANK YOU FOR SHOPING !!!")
+        print("\U0001F600")
+        print("*************************f*****************************************")
         print("Please visit us again!")
     @classmethod
     def totalbill(cls):
+        print("*************************f*****************************************")
         print("Total bill : " , cls.Total_bill)
 item=[]
 print("press any character and then press enter to calculate bill")
