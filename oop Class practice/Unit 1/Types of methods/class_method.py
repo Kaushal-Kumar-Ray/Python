@@ -15,6 +15,6 @@ class Hotel:
     @classmethod
     def disp(cls):
         print(cls.count)
-p=Hotel
-q=Hotel
+p=Hotel()
+q=Hotel()
 Hotel.disp()            
