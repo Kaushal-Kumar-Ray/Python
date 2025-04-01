@@ -7,4 +7,5 @@ class car:
         print (self.speed)
 c1=car("Thar",100)
 c2=car("BMW",150)
-print(c1,c2)
+print(c1)
+print(c2)
