@@ -16,7 +16,7 @@ class Mall:
     def thank():
         print("\t\t\tTHANK YOU FOR SHOPING !!!")
         print("\U0001F600")
-        print("*************************f*****************************************")
+        print("******************************************************************")
         print("Please visit us again!")
     @classmethod
     def totalbill(cls):
