@@ -12,6 +12,7 @@ class aadmi(Person):
         print("Unhealthy")
     def kids(self):
         print("Playing")
+        
    
         
 a=aadmi()
