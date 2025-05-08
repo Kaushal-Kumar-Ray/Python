@@ -1,12 +1,22 @@
 import pandas as pd
 
+# Create a DataFrame
+data = {
+    'Name': ['John', 'Anna', 'Peter', 'Kaushal'],
+    'Age': [28, 24, 35, 45],
+    'Salary': [50000, 48000, 60000, 70000]
+}
+df = pd.DataFrame(data)
+df.to_csv('ass.csv', index=False)
+print("CSV file 'ass.csv' has been created!")
+
 # 1. Read the CSV file
-df = pd.read_csv('assignment.csv')
+df = pd.read_csv("ass.csv")
 
 # 2. Show the first 2 rows
 print("\nFirst 2 rows:\n", df.head(2))
 
-"""# 3. Check the shape (number of rows and columns)
+# 3. Check the shape (number of rows and columns)
 print("\nShape:", df.shape)
 
 # 4. Sort by 'Age'
@@ -32,4 +42,4 @@ df2 = pd.DataFrame({
     'Salary': [53000]
 })
 concat_df = pd.concat([df_renamed, df2], ignore_index=True)
-print("\nConcatenated DataFrame:\n", concat_df)"""
+print("\nConcatenated DataFrame:\n", concat_df)
