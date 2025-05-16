@@ -1,4 +1,4 @@
-##table1_students.py
+# Inner join operation
 import mysql.connector
 conn=mysql.connector.connect(
     host="localhost",
