@@ -30,6 +30,7 @@ crs.execute("""
 for row in crs.fetchall():
     print(row)
 #Shows all students, including the one without a name, matched with course if available.
+#
 crs.execute("commit")
 
 
